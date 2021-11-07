@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form y Listas</title>
+</head>
+<body>
+
+<!-- **** EJERCICIO 1 **** -->  
+
+    <h4>Ejercicio 1</h4>
+    
+    <h3>Datos personales</h3>
+        <ul>
+            <li>Nombre completo: <b>Bruce Wayne</b></li>
+            <li>Fecha de nacimiento: <b>1/5/1939</b></li>
+            <li>Lugar de nacimiento: <b>Gotham City</b></li>
+        </ul>
+
+    <h3>Formación académica</h3>
+        <ul>
+            <li>1956-1961: <b>Univercidad del Espantapájaros</b></li>
+            <li>1952-1956: <b>Instituto de Dos Caras</b></li>
+            <li>1944-1952: <b>Escuela Primaria del Joker</b></li>
+        </ul>
+
+    <h3>Experencia laboral</h3>
+        <ul>
+            <li>1975-1985: <b>En el paro</b></li>
+            <li>1965-1975: <b>Caza villanos y demás chusma</b></li>
+            <li>1962-1965: <b>Aprendiz de superhéroe</b></li>
+        </ul>
+        <hr>
+
+
+<!-- **** EJERCICIO 2 **** -->
+
+                                            
+    <h4>Ejercicion 2</h4>
+
+    <h3>Internet</h3>
+
+    <h4>Contenido</h4>
+        <ol>
+            <li>Principales protocolos</li>
+            <li>Formas de conectarse</li>
+        </ol>
+
+    <h4>1. Principales protocolos</h4>
+        <ul>
+            <li>Transmision de ficheros:
+                <ul>
+                    <li>FTP</li>
+                </ul>
+            </li>
+            <li>Correo electrónico:
+                <ul>
+                    <li>IMAP</li>
+                    <li>POP</li>
+                    <li>SMTP</li>
+                </ul>
+            </li>
+        </ul>    
+    <h4>2. Formas de conectarse</h4>
+        <dl>
+            <dt>Red Telefónica Conmutada (RTC)</dt>
+            <dd>La linea telefonica de toda la vida. Para acceder a Internet es necesario un modem.</dd>
+            <dt>Red Digital de Servicios Integrados (RDSI)</dt>
+            <dd>Una linea telefonica especial. Para acceder a Internet es necesario un modem RDSI.</dd>
+            <dt>Línea de Abonado Digital Asimétrica (ADSL)</dt>
+            <dd>Se basa en la conversacion de una línea RTC en una linea de alta velocidad. Para acceder a Internet es necesario un módem ADSL.</dd>
+            <dt>Fibra Óptica</dt>
+            <dd>Una línea de fobra óptica.Normamente la fibra optica no llega hasta el usuario final por lo que el termino más apropiado es Fibra hibrida coaxial</dd>
+        </dl>
+        <hr>
+
+        
+<!-- **** EJERCICIO 3 **** -->
+
+                                            
+    <h4>Ejercicion 3</h4>
+
+    <h3>Formulario de registro</h3>
+        <form >
+            <label for="name">Nombre: </label> 
+            <input type="text" name="name" id="name">
+            <br><br>
+
+            <label for="apell">Apellido: </label>
+            <input type="text" name="apell" id="apell">
+            <br><br>
+
+            <label>Sexo: </label>
+            <input type="radio" name="sexo">
+            <label>Hombre</label> 
+            <input type="radio" name="sexo">
+            <label>Mujer</label>
+            <br><br>
+
+            <label>Correo:</label>
+            <input type="email" name="" id="" required>
+            <br><br>
+
+            <input type="checkbox" name="" id="" checked>
+            <label>Deseo recibir informacion sobre novedades y ofertas.</label>
+            <br>
+            <input type="checkbox" name="" id="">
+            <label>Declaro haber leido y aceptados las condiciones generales del programa y la normativa sobre protección de datos.</label>
+            <br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+        <br>
+        <hr>                                        
+
+<!-- **** EJERCICIO 4 **** -->
+
+    
+    <h4>Ejercicion 4</h4>
+
+    <h3>Formulario de registro</h3>
+        <form >
+            <label for="nam">Nombre: </label>
+            <input type="text" name="nam" id="nam">
+            <br><br>
+
+            <label for="apel">Apellido: </label> 
+            <input type="text" name="apel" id="apel">
+            <br><br>
+
+            <label>Sexo: </label>
+            <input type="radio" name="sexo">
+            <label>Hombre</label> 
+            <input type="radio" name="sexo"checked>
+            <label>Mujer</label>
+            <br><br>
+
+            <label>Correo:</label>
+            <input type="email" required>
+            <br><br>
+
+            <label for="">Población:</label>
+            <select name="menu">
+                <option selected>Alicante</option>
+                <option>Alicante 2</option>
+            </select>
+            <br><br>
+
+            <label>Descripción</label>
+            <textarea name="texto" id="" cols="50" rows="5"></textarea>
+            <br><br>
+
+            <input type="checkbox">
+            <label>Deseo recibir informacion sobre novedades y ofertas.</label>
+            <br>
+            <input type="checkbox">
+            <label>Declaro haber leido y aceptados las condiciones generales del programa y la normativa sobre protección de datos.</label>
+            <br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+
+</body>
+</html>
